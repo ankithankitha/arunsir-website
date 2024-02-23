@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+<style>
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light Gray Background Color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Add more CSS styles as needed */
+
+/* Updated Styles for Profile Picture and Resume Section */
+.profile-picture {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+}
+
+.resume-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <img src="arunkumar.jpeg" alt="Profile Picture" class="profile-picture" width="150">
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm an Assistant Professor working at Computer science department, GMIT Davangere</p>
+    
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <p>BE in Instrumentation Technology (IT)</p>
+    <p>M.Tech in Computer Science & Engineering</p>
+    <p>Pursuing Ph.D. at VTU, Belagavi</p>
+</section>
+
+<section id="experience">
+    <h2>Professional Experience</h2>
+    <p>G M Institute of Technology (GMIT), Davanagere (From 2nd Aug 2008 to Till date)</p>
+    <p>Bapuji Institute of Engineering & Technology (BIET), Davanagere. (1 year)</p>
+</section>
+
+<section id="research">
+    <h2>Research and Workshops</h2>
+    <table border="1">
+        <tr>
+            <th>Date</th>
+            <th>Title</th>
+            <th>Location</th>
+            <th>Role</th>
+        
+        </tr>
+        <tr>
+            <td>24&25 march 2006</td>
+            <td>recent advancements in instrumentation  for automation</td>
+            <td>BVBCE,Hubli</td>
+            <td>Participant</td>
+ 
+           
+        </tr>
+ <tr>
+            <td>27 jan to 6th feb2004</td>
+            <td>Programming and Applications of allen bradley PLC's</td>
+            <td>Apex High Tech Institute ,Banglore</td>
+            <td>Participant</td>
+            
+            
+        </tr> 
+         <tr>
+            <td>27 sept 2008</td>
+            <td>R&D Funding AND Industry University Partnership</td>
+            <td>UBDT,Davangere</td>
+            <td>Participant</td>
+           
+          
+        </tr>
+             <tr>
+            <td>13th to 23rd Dec 2010</td>
+            <td>DBMS</td>
+            <td>MIT ,Manipal</td>
+            <td>Participant</td>
+            
+            
+        </tr>
+  <tr>
+            <td>27th june 2011 to1st july 2011</td>
+            <td>Faculty  enabled Program</td>
+            <td>Infosys,Mysore</td>
+            <td>Participant</td>
+        
+            
+        </tr>
+       <tr>
+            <td>18Dec2012</td>
+            <td>Information Security & Cyber Forsenics</td>
+            <td>GMIT,Davangere</td>
+            <td>Participant</td>
+          
+            </tr>
+        
+    </table>
+</section>
+
+
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>arunkumarbt@gmit.ac.in</p>
+
+
+
+<section> <p>Here's my <a href="http://gmit.ac.in/10/cs5.pdf" target="_blank">resume</a>.</p></section>
+
+</section>
+
+<script>
+// JavaScript for smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+</body>
+</html>
